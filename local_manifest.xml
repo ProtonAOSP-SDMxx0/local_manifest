@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>  
+    <remote  name="nerdhannn" fetch="https://github.com/nerdhannn" />
+        <!-- Sync trees -->
+        <remove-project name="device/asus/X01BD" />
+        <project name="android_device_asus_X01BD" path="device/asus/X01BD" remote="nerdhannn" revision="sc" />
+        <project name="proprietary_vendor_asus" remote="nerdhannn" path="vendor/asus" revision="xdOSS-test-1" />
+        <project name="android_kernel_asus_sdm660" path="kernel/asus/sdm660" remote="nerdhannn" revision="sc" />
+        <project name="android_device_asus_sdm660-common" path="device/asus/sdm660-common" remote="nerdhannn" revision="sc" />
+</manifest>
